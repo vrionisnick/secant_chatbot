@@ -29,7 +29,6 @@
     "react-router-dom": "^6.21.3",
     "update": "^0.7.4",
     "uuid": "^9.0.1",
-    "web-vitals": "^2.1.4",
-    "dotenv": "^16.4.5"
+    "web-vitals": "^2.1.4"
   }
 }
