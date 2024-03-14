@@ -9,7 +9,8 @@ const app = express();
 //const port = process.env.PORT || 5000;
 const port = 5000;
 console.log("[*] SERVER STARTING");
-console.log(process.env.PORT);
+console.log("PORT ENV: "+process.env.PORT);
+console.log("MYPORT ENV: "+process.env.MYPORT);
 
 
 app.use(express.json());
