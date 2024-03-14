@@ -1,0 +1,205 @@
+/* Chatbot.css */
+
+/* Container styling */
+.chatbot-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow-y: auto; /* Enable scrolling */
+}
+
+/* Styling for question history */
+.question-history {
+  margin-bottom: 20px;
+}
+
+/* Styling for individual question-answer pairs */
+.chatbot-question-answer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+/* Styling for questions */
+.chatbot-question {
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px 10px 0 10px;
+  padding: 10px;
+  margin-right: 10px;
+  position: relative;
+  text-align: left; /* Align text to the left */
+  max-width: 70%; /* Limit width */
+}
+
+/* Styling for answers */
+.chatbot-answer {
+  background-color: #e7e7e7;
+  color: black;
+  border-radius: 10px 10px 10px 0;
+  padding: 10px;
+  margin-left: 10px;
+  position: relative;
+  max-width: 70%; /* Limit width */
+}
+
+/* Right arrow for question */
+.chatbot-question:before {
+  content: "";
+  position: absolute;
+  right: 100%; /* Position the arrow before the question */
+  top: 50%;
+  margin-top: -10px; /* Adjust the arrow vertically */
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #007bff; /* Adjusted to point towards question */
+}
+
+/* Left arrow for answer */
+.chatbot-answer:after {
+  content: "";
+  position: absolute;
+  left: 100%; /* Position the arrow after the answer */
+  top: 50%;
+  margin-top: -10px; /* Adjust the arrow vertically */
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #e7e7e7; /* Adjusted to point towards answer */
+}
+.chatbot-answer.correct.color {
+  background-color: #28a745; /* Green for correct answer */
+  color: white;
+}
+.chatbot-answer.incorrect.color {
+  background-color: #dc3545; /* Red for incorrect answer */
+  color: white;
+}
+
+.chatbot-answer.correct.color:after {
+  content: "";
+  position: absolute;
+  left: 100%; /* Position the arrow after the answer */
+  top: 50%;
+  margin-top: -10px; /* Adjust the arrow vertically */
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #28a745; /* Adjusted to point towards answer */
+}
+
+.chatbot-answer.incorrect.color:after {
+  content: "";
+  position: absolute;
+  left: 100%; /* Position the arrow after the answer */
+  top: 50%;
+  margin-top: -10px; /* Adjust the arrow vertically */
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #dc3545; /* Adjusted to point towards answer */
+}
+
+/* Styling for answer buttons */
+.chatbot-answer-button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #e7e7e7;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1em;
+}
+
+.chatbot-answer-button:hover {
+  background-color: #d4d4d4;
+  transform: scale(1.05);
+}
+
+.chatbot-answer-button.selected {
+  background-color: #3e454c; /* Blue background for selected answer */
+  color: white;
+}
+
+.chatbot-answer-button.correct {
+  background-color: #28a745; /* Green for correct answer */
+  color: white;
+}
+
+.chatbot-answer-button.incorrect {
+  background-color: #dc3545; /* Red for incorrect answer */
+  color: white;
+}
+
+/* Styling for buttons */
+.chatbot-submit-button,
+.chatbot-next-button,
+.chatbot-start-again-button {
+  padding: 10px 15px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+.chatbot-submit-button:hover,
+.chatbot-next-button:hover,
+.chatbot-start-again-button:hover {
+  background-color: #005f73;
+  transform: scale(1.05);
+}
+
+.chatbot-submit-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Styling for feedback */
+.feedback {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #f44336; /* Color for incorrect feedback */
+}
+
+/* Styling for current question */
+.current-question {
+  text-align: right; /* Align content to the right */
+}
+
+.current-question .answers {
+  margin-top: 10px;
+}
+
+.current-question .answers button {
+  margin-top: 5px;
+}
+
+/* Right arrow for current question's answers */
+.current-question .answers:before {
+  content: "";
+  position: absolute;
+  left: -15px; /* Adjust the position of the arrow */
+  top: calc(50% - 10px); /* Center the arrow vertically */
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #007bff; /* Adjusted to point towards answers */
+}
