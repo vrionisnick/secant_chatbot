@@ -6,11 +6,14 @@ const cors = require('cors');
 // const { dbConfig } = require('./config'); // Import your configuration
 
 const app = express();
-//const port = process.env.PORT || 5000;
-const port = 5000;
+const port = process.env.MYPORT || 5000;
 console.log("[*] SERVER STARTING");
 console.log("PORT ENV: "+process.env.PORT);
 console.log("MYPORT ENV: "+process.env.MYPORT);
+console.log("DB_HOST ENV: "+process.env.DB_HOST);
+console.log("DB_NAME ENV: "+process.env.DB_NAME);
+console.log("DB_PASSWORD ENV: "+process.env.DB_PASSWORD);
+console.log("DB_USER ENV: "+process.env.DB_USER);
 
 
 app.use(express.json());
