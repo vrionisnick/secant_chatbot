@@ -8,7 +8,7 @@ console.log('DB_NAME:', process.env.DB_NAME);
 const express = require('express');
 const mysql = require('mysql2');
 const cors = require('cors');
-const { dbConfig } = require('./config'); // Import your configuration
+// const { dbConfig } = require('./config'); // Import your configuration
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -16,7 +16,7 @@ const port = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors());
 
-// Create a MySQL connection pool using the config
+// Create a MySQL connection pool using env variables
 // const pool = mysql.createPool(dbConfig);
 const pool = mysql.createPool({
   host: process.env.DB_HOST,

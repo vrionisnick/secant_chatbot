@@ -5,8 +5,8 @@ import { useLocation } from 'react-router-dom';
 import jsonData from '../secant_questions.json';
 import '../css/Chatbot.css';
 
-//const api_base_url = 'http://localhost:5000';
-const api_base_url = 'https://inf-webapp.herokuapp.com/:5000';
+const api_base_url = 'http://localhost:5000';
+//const api_base_url = 'https://inf-webapp.herokuapp.com/:5000';
 
 function Chatbot() {
   const useQuery = () => {
