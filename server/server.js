@@ -6,7 +6,7 @@ const cors = require('cors');
 // const { dbConfig } = require('./config'); // Import your configuration
 
 const app = express();
-const port = process.env.MYPORT || 5000;
+const port = process.env.PORT || 5000;
 
 
 console.log("[*] SERVER STARTING");
