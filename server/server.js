@@ -8,10 +8,11 @@ const cors = require('cors');
 const app = express();
 const port = process.env.MYPORT || 5000;
 
-/*
+
 console.log("[*] SERVER STARTING");
 console.log("PORT ENV: "+process.env.PORT);
 console.log("MYPORT ENV: "+process.env.MYPORT);
+/*
 console.log("DB_HOST ENV: "+process.env.DB_HOST);
 console.log("DB_NAME ENV: "+process.env.DB_NAME);
 console.log("DB_PASSWORD ENV: "+process.env.DB_PASSWORD);
