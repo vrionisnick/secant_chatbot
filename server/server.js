@@ -6,7 +6,7 @@ const cors = require('cors');
 const path = require('path'); // Add this line to import the path module
 
 const app = express();
-const port = process.env.MY_PORT || 5000;
+const port = process.env.PORT || 5000;
 
 app.use(express.json());
 app.use(cors());

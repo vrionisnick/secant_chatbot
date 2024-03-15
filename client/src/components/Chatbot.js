@@ -8,7 +8,7 @@ import '../css/Chatbot.css';
 //const api_base_url = 'http://localhost:5000';
 //const api_base_url = 'https://inf-webapp.herokuapp.com/:5000';
 
-const api_base_url = 'https://inf-webapp-c68429036bf9.herokuapp.com:5000';
+const api_base_url = 'https://inf-webapp-c68429036bf9.herokuapp.com';
 
 function Chatbot() {
   const useQuery = () => {
