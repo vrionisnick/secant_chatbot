@@ -3,36 +3,24 @@ require('dotenv').config();
 const express = require('express');
 const mysql = require('mysql2');
 const cors = require('cors');
-// const { dbConfig } = require('./config'); // Import your configuration
+const path = require('path'); // Add this line to import the path module
 
 const app = express();
-const port = process.env.PORT || 5000;
-
-
-console.log("[*] SERVER STARTING");
-console.log("PORT ENV: "+process.env.PORT);
-console.log("MYPORT ENV: "+process.env.MYPORT);
-/*
-console.log("DB_HOST ENV: "+process.env.DB_HOST);
-console.log("DB_NAME ENV: "+process.env.DB_NAME);
-console.log("DB_PASSWORD ENV: "+process.env.DB_PASSWORD);
-console.log("DB_USER ENV: "+process.env.DB_USER);
-*/
+const port = process.env.MY_PORT || 5000;
 
 app.use(express.json());
 app.use(cors());
 
+// Serve static files from the React build directory
+app.use(express.static(path.join(__dirname, '../client/build')));
+
 // Create a MySQL connection pool using env variables
-// const pool = mysql.createPool(dbConfig);
 const pool = mysql.createPool({
   host: process.env.DB_HOST,
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME
 });
-
-
-
 
 // Endpoint to receive and store answers from the React app
 app.post('/submit-answers', (req, res) => {
@@ -72,6 +60,11 @@ app.post('/submit-answers', (req, res) => {
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).send('Something went wrong!');
+});
+
+// Ensure that all other routes are directed to serve the index.html file
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
 });
 
 // Start server

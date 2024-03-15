@@ -5,11 +5,9 @@ import { useLocation } from 'react-router-dom';
 import jsonData from '../secant_questions.json';
 import '../css/Chatbot.css';
 
-
-//const api_base_url = process.env.DEPLOYED_APP_URL+":"+process.env.MYPORT;
-//console.log("[*] CHATBOT CLIENT STARTING");
-//console.log("api_base_url: "+api_base_url);
 //const api_base_url = 'http://localhost:5000';
+//const api_base_url = 'https://inf-webapp.herokuapp.com/:5000';
+
 const api_base_url = 'https://inf-webapp-c68429036bf9.herokuapp.com:5000';
 
 function Chatbot() {
