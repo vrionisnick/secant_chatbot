@@ -1,0 +1,40 @@
+.home-button-container {
+    position: absolute;
+    top: 20px;
+    left: 20px; /* Adjusted to left */
+  }
+  
+  .home-button {
+    background-color: #dd8903;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home-button-container {
+      top: 10px;
+      left: 10px; /* Adjusted to left */
+    }
+  
+    .home-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .home-button-container {
+      top: 5px;
+      left: 5px; /* Adjusted to left */
+    }
+  
+    .home-button {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  }
+  

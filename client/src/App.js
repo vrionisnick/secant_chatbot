@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Chatbot from './components/Chatbot';
-import './App.css';
+import HomeButton from './components/HomeButton'; // Import HomeButton component
+import './App.css'; // Import global styles
 
 function App() {
   return (
@@ -12,10 +13,9 @@ function App() {
         </header>
         <main>
           <Routes>
-            {/* Define the route for Chatbot within Routes */}
             <Route path="/chatbot" element={<Chatbot />} />
-            {/* You can add more Route components here */}
           </Routes>
+          <HomeButton /> {/* Render the HomeButton component */}
         </main>
       </div>
     </Router>
