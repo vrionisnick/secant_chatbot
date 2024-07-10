@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import ChatbotEN from './components/ChatbotEN';
 import ChatbotRO from './components/ChatbotRO';
 import HomeButton from './components/HomeButton';
@@ -18,6 +18,7 @@ function App() {
         </header>
         <main>
           <Routes>
+            <Route path="/chatbot" element={<Navigate to="/chatbot_en" replace />} />
             <Route path="/chatbot_en" element={<ChatbotEN />} />
             <Route path="/chatbot_ro" element={<ChatbotRO />} />
           </Routes>
