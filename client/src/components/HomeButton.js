@@ -2,13 +2,13 @@ import React from 'react';
 import '../css/HomeButton.css'; // Import the CSS file
 
 const HomeButton = () => {
-  const handleClick = () => {
-    window.location.href = 'https://seua.vercel.app/home'; // Redirect to Secant End User Application
+  const handleButtonClick = () => {
+    window.open("https://seua.vercel.app/home", "_blank");
   };
 
   return (
     <div className="home-button-container">
-      <button className="home-button" onClick={handleClick}>
+      <button className="home-button" onClick={handleButtonClick}>
         SEUA
       </button>
     </div>

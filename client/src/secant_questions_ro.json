@@ -1,0 +1,345 @@
+{
+  "questions": [
+      {
+          "id": "q1",
+          "difficulty": "low",
+          "question": "Este e-mailul o modalitate bună de a trimite acreditările și parolele de autentificare?",
+          "link": "https://seua.vercel.app/course/01.03-third-sublesson",
+          "responses": [
+              {
+                  "response": "Da, deoarece e-mailul poate fi vizualizat doar de destinatarii intenționați.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course/01.03-third-sublesson",
+                  "result": "false"
+              },
+              {
+                  "response": "Nu, deoarece e-mailul este un protocol criptat implicit și actorii rău intenționați pot obține acces la acesta.",
+                  "type": "string",
+                  "result": "correct"
+              },
+              {
+                  "response": "Da, deoarece e-mailurile sunt întotdeauna criptate.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course/01.03-third-sublesson",
+                  "result": "false"
+              },
+              {
+                  "response": "Da, e-mailurile sunt o modalitate sigură de comunicare electronică.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course/01.03-third-sublesson",
+                  "result": "false"
+              }
+          ]
+      },
+      {
+          "id": "q2",
+          "difficulty": "medium",
+          "question": "Un URL cu HTTPS este mai sigur decât un URL cu HTTP?",
+          "link": "https://seua.vercel.app/course",
+          "responses": [
+              {
+                  "response": "Oferă aceeași securitate.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Nu, HTTP este mai sigur decât HTTPS.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Da, deoarece comunicarea cu site-ul este criptată cu protocolul SSL.",
+                  "type": "string",
+                  "result": "correct"
+              },
+              {
+                  "response": "Nu, deoarece protocolul folosit de URL nu are impact asupra securității.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              }
+          ]
+      },
+      {
+          "id": "q3",
+          "difficulty": "low",
+          "question": "Ce este phishing-ul?",
+          "link": "https://seua.vercel.app/course/02.01-first-sublesson",
+          "responses": [
+              {
+                  "response": "Phishing-ul este o infracțiune cibernetică în care o țintă sau mai multe sunt contactate prin e-mail, telefon sau mesaj text de către cineva care se prezintă ca o instituție legitimă pentru a atrage indivizii să ofere date sensibile, cum ar fi informații de identificare personală, detalii bancare și de card de credit și parole.",
+                  "type": "string",
+                  "result": "correct"
+              },
+              {
+                  "response": "Phishing-ul este un tip de pescuit extrem care are loc în timpul iernii.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course/02.01-first-sublesson",
+                  "result": "false"
+              },
+              {
+                  "response": "Phishing-ul este un nou tip de muzică derivat din Hip-Hop.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course/02.01-first-sublesson",
+                  "result": "false"
+              },
+              {
+                  "response": "Phishing-ul este un instrument dedicat folosit de pescari atunci când pescuiesc păstrăvi.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course/02.01-first-sublesson",
+                  "result": "false"
+              }
+          ]
+      },
+      {
+          "id": "q4",
+          "difficulty": "low",
+          "question": "Ce este ransomware?",
+          "link": "https://seua.vercel.app/course",
+          "responses": [
+              {
+                  "response": "Ransomware-ul este un tip de malware care amenință să publice datele personale ale victimelor sau să blocheze permanent accesul la acestea, cu excepția cazului în care se plătește o răscumpărare.",
+                  "type": "string",
+                  "result": "correct"
+              },
+              {
+                  "response": "Ransomware-ul este un gen de ficțiune criminală.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Ransomware-ul este un tip de ustensilă de bucătărie folosită pentru a servi legume.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Ransomware-ul este un tip de aparat electronic pentru curățarea merelor.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              }
+          ]
+      },
+      {
+          "id": "q5",
+          "difficulty": "High",
+          "question": "Autentificarea cu doi factori este mai sigură cu SMS decât cu o aplicație dedicată?",
+          "link": "https://seua.vercel.app/course",
+          "responses": [
+              {
+                  "response": "Da, deoarece SMS-ul este criptat implicit.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Da, deoarece SMS-ul poate fi primit doar de către destinatarul intenționat.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Oferă același nivel de securitate.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Nu, deoarece SMS-ul nu suportă criptarea și actorii rău intenționați pot compromite comunicarea.",
+                  "type": "string",
+                  "result": "correct"
+              }
+          ]
+      },
+      {
+          "id": "q6",
+          "difficulty": "High",
+          "question": "Dacă șeful tău îți trimite un e-mail din senin, cerându-ți să efectuezi o acțiune, cum ar fi trimiterea unui document sau trimiterea de bani într-un cont nou, ce ar trebui să faci?",
+          "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+          "responses": [
+              {
+                  "response": "Ignoră-l.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+                  "result": "false"
+              },
+              {
+                  "response": "Sună-ți șeful pentru a confirma că este autentic.",
+                  "type": "string",
+                  "result": "correct"
+              },
+              {
+                  "response": "Acționează imediat, nu contesta niciodată cererea de la conducerea superioară.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+                  "result": "false"
+              },
+              {
+                  "response": "Redirecționează cererea către un coleg.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+                  "result": "false"
+              }
+          ]
+      },
+      {
+          "id": "q7",
+          "difficulty": "High",
+          "question": "Phishing-ul nu este …",
+          "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+          "responses": [
+              {
+                  "response": "De obicei, sub formă de recompensă sau declanșează un răspuns de stres.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+                  "result": "false"
+              },
+              {
+                  "response": "Când un actor rău intenționat încearcă să exploateze natura umană pentru a fura informații sau a provoca daune reputaționale.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+                  "result": "false"
+              },
+              {
+                  "response": "Numele oricărui malware executat printr-un URL sau atașament.",
+                  "type": "string",
+                  "result": "correct"
+              },
+              {
+                  "response": "Proiectat să te prindă pe picior greșit.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+                  "result": "false"
+              }
+          ]
+      },
+      {
+          "id": "q8",
+          "difficulty": "High",
+          "question": "Oprirea pentru a verifica din nou un e-mail care te lasă alarmat, confuz sau care pare prea bun pentru a fi adevărat este bună pentru că:",
+          "link": "https://seua.vercel.app/course",
+          "responses": [
+              {
+                  "response": "Vei avea șanse să observi greșeli în expeditor, dată sau ortografia e-mailului, care pot fi indicative de phishing.",
+                  "type": "string",
+                  "result": "correct"
+              },
+              {
+                  "response": "Compania ta valorizează mindfulness-ul.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Îți dă timp să îți planifici răzbunarea.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Compania este interesată să măsoare timpul necesar pentru a-ți gestiona inboxul.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              }
+          ]
+      },
+      {
+          "id": "q9",
+          "difficulty": "High",
+          "question": "Cum ar putea un infractor cibernetic rău intenționat să exploateze informațiile pe care le găsește despre tine online?",
+          "link": "https://seua.vercel.app/course",
+          "responses": [
+              {
+                  "response": "Să te țintească cu un e-mail, cerere de prietenie sau apel telefonic pretinzând că știe ceva despre tine, cineva apropiat de tine sau compania pentru care lucrezi, pentru a extrage informații sensibile de la tine.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Să folosească aceste informații pentru a confirma răspunsurile la întrebările de securitate pe care le-ai putea fi folosit. De exemplu, pentru a te conecta la banca ta online.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Să creeze un profil fals care are multe în comun cu al tău pentru a-ți câștiga încrederea.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Toate răspunsurile disponibile sunt corecte.",
+                  "type": "string",
+                  "result": "correct"
+              }
+          ]
+      },
+      {
+          "id": "q10",
+          "difficulty": "High",
+          "question": "Care este cel mai simplu mod de a opri un actor rău intenționat în acțiunile sale?",
+          "link": "https://seua.vercel.app/course",
+          "responses": [
+              {
+                  "response": "Șterge toate profilurile tale de social media.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Păstrează activ software-ul tău antivirus.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Oprește-ți laptopul când nu îl folosești.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Ia un moment de pauză și gândește-te de două ori înainte de a răspunde la o solicitare de la cineva pe care nu îl cunoști.",
+                  "type": "string",
+                  "result": "correct"
+              }
+          ]
+      },
+      {
+          "id": "q11",
+          "difficulty": "High",
+          "question": "Oprirea pentru a verifica din nou un e-mail care te lasă alarmat, confuz sau care pare prea bun pentru a fi adevărat este bună pentru că:",
+          "link": "https://seua.vercel.app/course",
+          "responses": [
+              {
+                  "response": "Vei avea șanse să observi greșeli în expeditor, dată sau ortografia e-mailului, care pot fi indicative de phishing.",
+                  "type": "string",
+                  "result": "correct"
+              },
+              {
+                  "response": "Compania ta valorizează mindfulness-ul.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Îți dă timp să îți planifici răzbunarea.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              },
+              {
+                  "response": "Compania este interesată să măsoare timpul necesar pentru a-ți gestiona inboxul.",
+                  "type": "string",
+                  "link": "https://seua.vercel.app/course",
+                  "result": "false"
+              }
+          ]
+      }
+  ]
+}

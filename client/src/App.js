@@ -1,21 +1,26 @@
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Chatbot from './components/Chatbot';
-import HomeButton from './components/HomeButton'; // Import HomeButton component
-import './App.css'; // Import global styles
+import ChatbotEN from './components/ChatbotEN';
+import ChatbotRO from './components/ChatbotRO';
+import HomeButton from './components/HomeButton';
+import LanguageSelector from './components/LanguageSelector';
+import './App.css';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <header className="App-header">
-          <h1 style={{ color: 'orange' }}>Welcome to the Secant Chatbot Evaluation</h1>
+          <HomeButton />
+          <h1>Secant Chatbot</h1>
+          <LanguageSelector />
         </header>
         <main>
           <Routes>
-            <Route path="/chatbot" element={<Chatbot />} />
+            <Route path="/chatbot_en" element={<ChatbotEN />} />
+            <Route path="/chatbot_ro" element={<ChatbotRO />} />
           </Routes>
-          <HomeButton /> {/* Render the HomeButton component */}
         </main>
       </div>
     </Router>

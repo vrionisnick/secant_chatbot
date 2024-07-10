@@ -1,3 +1,4 @@
+/* General App Styling */
 .App {
   text-align: center;
 }
@@ -6,13 +7,83 @@
   background-color: #282c34;
   min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap; /* Allow flex items to wrap to the next line */
   align-items: center;
-  justify-content: center;
+  justify-content: space-between; /* Aligns children to the edges and center */
+  padding: 10px 20px; /* Increased padding */
   font-size: calc(10px + 2vmin);
   color: white;
+  position: relative; /* Allows absolute positioning for child elements */
+}
+
+/* Styling for the Home Button */
+.home-button {
+  background-color: #e69500; /* Orange color for visibility */
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px; /* Add margin to adjust position */
+}
+
+/* Title Styling - Adjusted for visual centering */
+h1 {
+  margin: 10px auto; /* Center the title and add margin */
+  flex: 1; /* Allow title to grow to fill remaining space */
+}
+
+.language-selector {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  margin: 10px; /* Add margin to adjust position */
+}
+
+.language-button {
+  width: 40px; /* Adjust based on your actual button size */
+  height: 25px; /* Adjust based on your actual button size */
+  background-size: cover;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  border-radius: 4px;
+}
+
+.language-button:hover::after {
+  content: attr(data-language);
+  position: absolute;
+  bottom: 100%; /* Aligns the tooltip above the button */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #666; /* Dark background for contrast */
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  white-space: nowrap;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Consistent shadow style */
 }
 
 main {
-  margin: 2rem;
+  margin-top: 2rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .App-header {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .home-button {
+    order: 1; /* Change order to move home button to the top */
+  }
+
+  h1 {
+    margin-top: 40px; /* Add more margin between title and home button */
+    flex: 1;
+  }
 }

@@ -1,8 +1,8 @@
-// Chatbot.js
+// ChatbotEN.js
 import React, { useState, useEffect, useRef } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { useLocation } from 'react-router-dom';
-import jsonData from '../secant_questions_ro.json';
+import jsonData from '../secant_questions_en.json';
 import '../css/Chatbot.css';
 
 //const api_base_url = 'http://localhost:5000';
@@ -10,7 +10,7 @@ import '../css/Chatbot.css';
 
 const api_base_url = 'https://inf-webapp-c68429036bf9.herokuapp.com';
 
-function Chatbot() {
+function ChatbotEN() {
   const useQuery = () => {
     const { search } = useLocation();
     return React.useMemo(() => new URLSearchParams(search), [search]);
@@ -217,4 +217,4 @@ function Chatbot() {
   );
 }
 
-export default Chatbot
+export default ChatbotEN
