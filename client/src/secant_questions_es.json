@@ -1,0 +1,346 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "low",
+      "question": "¿Es el correo electrónico una buena forma de enviar credenciales de inicio de sesión y contraseñas?",
+      "link": "https://seua.vercel.app/course/01.03-third-sublesson",
+      "responses": [
+        {
+          "response": "Sí, ya que el correo electrónico solo puede ser visto por los destinatarios previstos.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course/01.03-third-sublesson",
+          "result": "false"
+        },
+        {
+          "response": "No, ya que el correo electrónico es por defecto un protocolo sin cifrar y los actores malintencionados pueden acceder a él.",
+          "type": "string.",
+          "result": "correct"
+        },
+        {
+          "response": "Sí, porque los correos electrónicos siempre están cifrados.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course/01.03-third-sublesson",
+          "result": "false"
+        },
+        {
+          "response": "Sí, los correos electrónicos son una forma segura de comunicación electrónica.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course/01.03-third-sublesson",
+          "result": "false"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "difficulty": "medium",
+      "question": "¿Es una URL con HTTPS más segura que una URL con HTTP?",
+      "link": "https://seua.vercel.app/course",
+      "responses": [
+        {
+          "response": "Ofrece la misma seguridad.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "No, HTTP es más seguro que HTTPS.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "Sí, porque la comunicación con el sitio web está cifrada con el protocolo SSL.",
+          "type": "string",
+          "result": "correct"
+        },
+        {
+          "response": "No, porque el protocolo utilizado por la URL no tiene impacto en la seguridad.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "difficulty": "low",
+      "question": "¿Qué es el phishing?",
+      "link": "https://seua.vercel.app/course/02.01-first-sublesson",
+      "responses": [
+        {
+          "response": "El phishing es un delito cibernético en el que un objetivo o objetivos son contactados por correo electrónico, teléfono o mensaje de texto por alguien que se hace pasar por una institución legítima para atraer a las personas a proporcionar datos sensibles como información personal, datos bancarios y de tarjetas de crédito, y contraseñas.",
+          "type": "string",
+          "result": "correct"
+        },
+        {
+          "response": "El phishing es un tipo de pesca extrema que se realiza en invierno.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course/02.01-first-sublesson",
+          "result": "false"
+        },
+        {
+          "response": "El phishing es un nuevo tipo de música derivada del Hip-Hop.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course/02.01-first-sublesson",
+          "result": "false"
+        },
+        {
+          "response": "El phishing es una herramienta dedicada que utilizan los pescadores cuando pescan truchas.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course/02.01-first-sublesson",
+          "result": "false"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "difficulty": "low",
+      "question": "¿Qué es el ransomware?",
+      "link": "https://seua.vercel.app/course",
+      "responses": [
+        {
+          "response": "El ransomware es un tipo de malware que amenaza con publicar los datos personales de las víctimas o bloquear el acceso a ellos de forma permanente a menos que se pague un rescate.",
+          "type": "string",
+          "result": "correct"
+        },
+        {
+          "response": "El ransomware es un género de ficción criminal.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "El ransomware es un tipo de utensilio de cocina que se utiliza para servir vegetales.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "El ransomware es un tipo de electrodoméstico para limpiar manzanas.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "difficulty": "High",
+      "question": "¿Es la autenticación de dos factores más segura con SMS que con una aplicación dedicada?",
+      "link": "https://seua.vercel.app/course",
+      "responses": [
+        {
+          "response": "Sí, porque el SMS está cifrado por defecto.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "Sí, ya que el SMS solo puede ser recibido por el destinatario previsto.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "Ofrece el mismo nivel de seguridad.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "No, ya que el SMS no admite cifrado y los actores malintencionados pueden comprometer la comunicación.",
+          "type": "string",
+          "result": "correct"
+        }
+        
+      ]
+    },
+    {
+      "id": "q6",
+      "difficulty": "High",
+      "question": "Si tu jefe te envía un correo electrónico, de la nada, pidiéndote que realices una acción como enviarle un documento o enviar dinero a una nueva cuenta, ¿qué deberías hacer?",
+      "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+      "responses": [
+        {
+          "response": "Ignorarlo.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+          "result": "false"
+        },
+        {
+          "response": "Llamar a tu jefe para confirmar que esto es genuino.",
+          "type": "string",
+          "result": "correct"
+        },
+        {
+          "response": "Actuar de inmediato, nunca desafías una solicitud de la alta dirección.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+          "result": "false"
+        },
+        {
+          "response": "Reenviar la solicitud a un colega.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+          "result": "false"
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "difficulty": "High",
+      "question": "El phishing no es...",
+      "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+      "responses": [
+        {
+          "response": "Usualmente en forma de una recompensa o desencadena una respuesta de estrés.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+          "result": "false"
+        },
+        {
+          "response": "Cuando un actor malintencionado intenta explotar la naturaleza humana para robar información o causar daños a la reputación.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+          "result": "false"
+        },
+        {
+          "response": "El nombre de cualquier malware ejecutado a través de una URL o archivo adjunto.",
+          "type": "string",
+          "result": "correct"
+        },
+        {
+          "response": "Diseñado para atraparte.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course/02.02-second-sublesson",
+          "result": "false"
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "difficulty": "High",
+      "question": "Detenerse para verificar un correo electrónico que te deja alarmado, confundido, o suena demasiado bueno para ser verdad es bueno porque:",
+      "link": "https://seua.vercel.app/course",
+      "responses": [
+        {
+          "response": "Es probable que detectes errores en el remitente, la fecha o la ortografía del correo electrónico, lo que puede ser indicativo de phishing.",
+          "type": "string",
+          "result": "correct"
+        },
+        {
+          "response": "Tu empresa valora la atención plena.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "Te da tiempo para planear tu venganza.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "La empresa está interesada en medir el tiempo que tardas en gestionar tu bandeja de entrada.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "difficulty": "High",
+      "question": "¿Cómo podría un ciberdelincuente malintencionado explotar la información que encuentra sobre ti en línea?",
+      "link": "https://seua.vercel.app/course",
+      "responses": [
+        {
+          "response": "Dirigirse a ti con un correo electrónico, solicitud de amistad o llamada telefónica alegando saber algo sobre ti, alguien cercano a ti o la empresa para la que trabajas para extraer información sensible.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "Usarla para confirmar las respuestas a preguntas de seguridad que hayas utilizado. Por ejemplo, para iniciar sesión en tu banca en línea.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "Crear un perfil falso que comparta muchas cosas en común contigo para ganar tu confianza.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "Todas las respuestas disponibles son correctas.",
+          "type": "string",
+          "result": "correct"
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "difficulty": "High",
+      "question": "¿Cuál es la forma más sencilla de detener a un actor malintencionado en su camino?",
+      "link": "https://seua.vercel.app/course",
+      "responses": [
+        {
+          "response": "Eliminar todos tus perfiles de redes sociales.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "Mantener tu software antivirus encendido.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "Apagar tu laptop cuando no la estás usando.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "Tomar un momento para pausar y pensar dos veces antes de responder a una solicitud de alguien que no conoces.",
+          "type": "string",
+          "result": "correct"
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "difficulty": "High",
+      "question": "Detenerse para verificar un correo electrónico que te deja alarmado, confundido, o suena demasiado bueno para ser verdad es bueno porque:",
+      "link": "https://seua.vercel.app/course",
+      "responses": [
+        {
+          "response": "Es probable que detectes errores en el remitente, la fecha o la ortografía del correo electrónico, lo que puede ser indicativo de phishing.",
+          "type": "string",
+          "result": "correct"
+        },
+        {
+          "response": "Tu empresa valora la atención plena.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "Te da tiempo para planear tu venganza.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        },
+        {
+          "response": "La empresa está interesada en medir el tiempo que tardas en gestionar tu bandeja de entrada.",
+          "type": "string",
+          "link": "https://seua.vercel.app/course",
+          "result": "false"
+        }
+      ]
+    }
+  ]
+}
