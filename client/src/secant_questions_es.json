@@ -13,7 +13,7 @@
           "result": "false"
         },
         {
-          "response": "No, ya que el correo electrónico es por defecto un protocolo sin cifrar y los actores malintencionados pueden acceder a él.",
+          "response": "No, ya que el correo electrónico es por defecto un protocolo no cifrado y los actores malintencionados pueden acceder a él.",
           "type": "string.",
           "result": "correct"
         },

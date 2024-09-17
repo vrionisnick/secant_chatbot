@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { useLocation } from 'react-router-dom';
-import jsonData from '../secant_questions_ro.json';
+import jsonData from '../secant_questions_es.json';
 import '../css/Chatbot.css';
 
 //const api_base_url = 'http://localhost:5000';

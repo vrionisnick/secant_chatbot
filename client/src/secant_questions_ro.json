@@ -13,7 +13,7 @@
                   "result": "false"
               },
               {
-                  "response": "Nu, deoarece e-mailul este un protocol criptat implicit și actorii rău intenționați pot obține acces la acesta.",
+                  "response": "Nu, deoarece e-mailul este un protocol implicit necriptat și actorii rău intenționați pot obține acces la acesta.",
                   "type": "string",
                   "result": "correct"
               },

@@ -13,7 +13,7 @@
             "result": "false"
           },
           {
-            "response": "No, since email is by default an encrypted protocol and threat actors can gain access to it.",
+            "response": "No, since email is by default not an encrypted protocol and threat actors can gain access to it.",
             "type": "string.",
             "result": "correct"
           },
